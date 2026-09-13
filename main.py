@@ -1,4 +1,5 @@
 from cancion import Cancion
+from circulo import Circulo
 
 # ============================================================
 # PROGRAMACIÓN II
@@ -23,6 +24,25 @@ print(cancion3.obtenerGenero())
 print("\nEJERCICIO 4 - Modificar el género de una instancia e imprimirlo nuevamente.")
 cancion1.establecerGenero("Indie-sleaze revival, electropop y cloud rap")
 print(cancion1.obtenerGenero())
+  
+
+# ejercicio 5
+print("\n EJERCICIO 5 -cuadrado lados en centimetros")
+
+# ejercicio 6 #
+print("\n EJERCICIO 6 - instanciar la clase circulo 3 veces")
+circulo1 = Circulo(5)
+circulo2 = Circulo(15)
+circulo3 = Circulo(30)
+
+# ejercicio 7 #
+print("\n EJERCICIO 7 - imprimir el valor del diametro para cada instancia de circulo creada")
+
+print("diametro_circulo1: ", circulo1.calcularDiametro())
+print("diametro_circulo2: ", circulo2.calcularDiametro())
+print("diametro_circulo3: ", circulo3.calcularDiametro())
+
+
 
 
 # Ejercicio 6 Walter
