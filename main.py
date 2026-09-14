@@ -38,9 +38,9 @@ circulo3 = circulo(30.5)
 # ejercicio 7 #
 print("\n EJERCICIO 7 - imprimir el valor del diametro para cada instancia de circulo creada")
 
-print("diametro_circulo1: ", circulo1.calcularDiametro())
-print("diametro_circulo2: ", circulo2.calcularDiametro())
-print("diametro_circulo3: ", circulo3.calcularDiametro())
+print("circulo1: ", circulo1.obtener_diametro())
+print("circulo2: ", circulo2.obtener_diametro())
+print("circulo3: ", circulo3.obtener_diametro())
 
 
 
