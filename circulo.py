@@ -1,6 +1,6 @@
 # Ejercicio 5 Walter
 class circulo:
-    Pi:float = 3.1416
+    Pi: float = 3.1416
 
     def __init__(self, radio: float):
         self.radio = radio
