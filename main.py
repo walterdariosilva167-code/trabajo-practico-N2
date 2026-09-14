@@ -42,15 +42,6 @@ print("circulo1: ", circulo1.obtener_diametro())
 print("circulo2: ", circulo2.obtener_diametro())
 print("circulo3: ", circulo3.obtener_diametro())
 
-
-
-
-# Ejercicio 6 Walter
-
-
-# Ejercicio 7 Walter
-
-
 # Ejercicio 8 Jere
 
 
