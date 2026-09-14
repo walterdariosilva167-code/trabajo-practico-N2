@@ -1,9 +1,9 @@
 from cancion import Cancion
-from circulo import Circulo
+from circulo import circulo
 
 # ============================================================
 # PROGRAMACIÓN II
-# TRABAJO PÁRCTICO NUMERO 2 - SECCIÓN B 
+# TRABAJO PRACTICO NUMERO 2 - SECCIÓN B 
 # ============================================================
 
 # Ejercicio 2 Leonardo
@@ -31,9 +31,9 @@ print("\n EJERCICIO 5 -cuadrado lados en centimetros")
 
 # ejercicio 6 #
 print("\n EJERCICIO 6 - instanciar la clase circulo 3 veces")
-circulo1 = Circulo(5)
-circulo2 = Circulo(15)
-circulo3 = Circulo(30)
+circulo1 = circulo(5.4)
+circulo2 = circulo(15.2)
+circulo3 = circulo(30.5)
 
 # ejercicio 7 #
 print("\n EJERCICIO 7 - imprimir el valor del diametro para cada instancia de circulo creada")
