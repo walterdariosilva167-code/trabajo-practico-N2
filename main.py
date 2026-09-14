@@ -1,8 +1,9 @@
 from cancion import Cancion
+from circulo import circulo
 
 # ============================================================
 # PROGRAMACIÓN II
-# TRABAJO PÁRCTICO NUMERO 2 - SECCIÓN B 
+# TRABAJO PRACTICO NUMERO 2 - SECCIÓN B 
 # ============================================================
 
 # Ejercicio 2 Leonardo
@@ -22,19 +23,40 @@ print(cancion3.obtenerGenero())
 # Ejercicio 4 Leonardo
 print("\nEJERCICIO 4 - Modificar el género de una instancia e imprimirlo nuevamente.")
 cancion1.establecerGenero("Indie-sleaze revival, electropop y cloud rap")
-print(cancion1.obtenerGenero())
+print(cancion1.obtenerGenero()) 
 
+# ejercicio 5
+print("\n EJERCICIO 5 -cuadrado lados en centimetros")
 
-# Ejercicio 6 Walter
+# ejercicio 6 #
+print("\n EJERCICIO 6 - instanciar la clase circulo 3 veces")
+circulo1 = circulo(5.4)
+circulo2 = circulo(15.2)
+circulo3 = circulo(30.5)
 
+# ejercicio 7 #
+print("\n EJERCICIO 7 - imprimir el valor del diametro para cada instancia de circulo creada")
 
-# Ejercicio 7 Walter
-
+print("circulo1: ", circulo1.obtener_diametro(), "cm")
+print("circulo2: ", circulo2.obtener_diametro(),"cm")
+print("circulo3: ", circulo3.obtener_diametro(),"cm")
 
 # Ejercicio 8 Jere
+print("\nEJERCICIO 8 - Imprimir el valor de Pi para cada instancia de Circulo")
 
+print("circulo1:", circulo1.Pi)
+print("circulo2:", circulo2.Pi)
+print("circulo3:", circulo3.Pi)
 
 # Ejercicio 9 Jere
+print("\nEJERCICIO 9 - Crear 2 instancias con el mismo radio y compararlas")
 
+circulo4 = circulo(20.0)
+circulo5 = circulo(20.0)
+
+print(circulo4 == circulo5)
 
 # Ejercicio 10 Jere
+print("\nEJERCICIO 10 - Comparar los perímetros de las instancias anteriores")
+
+print(circulo4.obtener_perimetro() == circulo5.obtener_perimetro())
