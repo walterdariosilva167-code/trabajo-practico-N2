@@ -1,20 +1,23 @@
 # Ejercicio 5 Walter
-class circulo:
+class Circulo:
     PI: float = 3.1416
 
     def __init__(self, radio: float):
         self.radio = radio
 
-    def establecer_radio(self, radio: float):
+    def establecerRadio(self, radio: float):
         self.radio = radio
 
-  #Consultas
-    def obtener_radio(self):
+    def obtenerRadio(self) -> float:
         return self.radio
-    def obtener_diametro(self):
+
+    def obtenerDiametro(self) -> float:
         return self.radio * 2
-    def obtener_area(self):
+
+    def obtenerArea(self) -> float:
         return self.PI * (self.radio ** 2)
-    def obtener_perimetro(self):
+
+    def obtenerPerimetro(self) -> float:
         return 2 * self.PI * self.radio
+
     

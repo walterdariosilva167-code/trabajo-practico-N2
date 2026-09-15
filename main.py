@@ -1,5 +1,5 @@
 from cancion import Cancion
-from circulo import circulo
+from circulo import Circulo
 
 # ============================================================
 # PROGRAMACIÓN II
@@ -34,9 +34,9 @@ print("\n EJERCICIO 5 - Se crea la clase Circulo")
 
 # ejercicio 6 #
 print("\n EJERCICIO 6 - Instanciar la clase circulo 3 veces")
-circulo1 = circulo(5.4)
-circulo2 = circulo(15.2)
-circulo3 = circulo(30.5)
+circulo1 = Circulo(5.4)
+circulo2 = Circulo(15.2)
+circulo3 = Circulo(30.5)
 
 # ejercicio 7 #
 print("\n EJERCICIO 7 - imprimir el valor del diametro para cada instancia de circulo creada")
@@ -55,8 +55,8 @@ print("circulo3:", circulo3.PI)
 # Ejercicio 9 #
 print("\nEJERCICIO 9 - Crear 2 instancias con el mismo radio y compararlas")
 
-circulo4 = circulo(20.0)
-circulo5 = circulo(20.0)
+circulo4 = Circulo(20.0)
+circulo5 = Circulo(20.0)
 
 print(circulo4 == circulo5)
 
